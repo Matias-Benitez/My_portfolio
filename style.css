@@ -517,7 +517,7 @@ nav ul li a:hover::after{
         font-size: 1rem;
     }
     .contact-col-1 p i{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1900px){
