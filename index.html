@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matías Benitez | Frot End Developer</title> <!-- Title -->
+    <link rel="shortcut icon" href="/images/favicon-logo.svg" type="image/x-icon"> <!-- Favicon -->
+    <meta name="description" content="Enter my website, where you can see all my works as Front End Developer|Ux/Ui designer and contact me so we can work together!!"> <!-- Meta -->
+    <meta name="keywords" content="Front End Developer, Ux/Ui Designer, Ux/Ui, web developer"> <!-- Meta / Kw -->
+
+    <meta property="og:type" content="website">     <!-- Open graph -->
+    <meta property="og:title" content="Matías Benitez | Frot End Developer">
+    <meta property="og:url" content="https://matiasbenitez.netlify.app/"> <!-- End Open graph -->
+    
+    <link rel="stylesheet" href="style.css"> <!-- Css -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet"><!-- End Fonts -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Animation AOS -->
+    <script src="https://kit.fontawesome.com/62f218b1b2.js" crossorigin="anonymous"></script> <!-- Font Awesome -->    
+</head>
+<body>
+    <section id="header"> <!-- ---------------Header--------------- -->
+        <div class="container" id="home">
+            <nav>
+                <a href="#home"><img src="/images/logo.svg" alt="logo mb" class="logo" ></a>
+                <ul id="sidemenu" >
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text" >
+                <p>Front End Developer | Ux/Ui Designer</p>
+                <h1>Hi, I'm <span>Matías</span> <br>From Argentina</h1>
+            </div>
+        </div>
+    </section> <!-- ---------------End Header--------------- -->
+    <div class="go-top-container"> <!-- ---------------Button up--------------- -->
+        <div class="go-top-button">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </div> <!-- ---------------End Button up--------------- -->
+    <section id="about" > <!-- ---------------About--------------- -->
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/about.svg" alt="desktop picture">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>My name is Matías and live in Buenos Aires. In the past, I worked in the same company for more than twelve years. I had responsibilities at the financial department such as invoice processing, purchases, etc. At this moment, I'm developing websites as freelancer and I'm studing to be a Front end React Js developer.</p>
+                    <div class="tab-titles">
+                        <h3 class="tab-links active-link" onclick="opentab('education')">Education</h3>
+                        <h3 class="tab-links" onclick="opentab('experience')">Experience</h3>
+                        <h3 class="tab-links" onclick="opentab('skills')">Skills</h3>
+                        <h3 class="tab-links" onclick="opentab('cv')">CV</h3>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul> <!-- Education -->
+                            <li><span>Aug.2022 - Current</span><br>React Js at Udemy</li>
+                            <li><span>May.2022 - Jul.2022</span><br>JavaScript at Coder House</li>
+                            <li><span>Jan.2022 - Apr.2022</span><br>Web development at Coder House</li>
+                            <li><span>Jun.2021 - Dic.2021</span><br>Ux/Ui Design at Coder House</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="experience">
+                        <ul> <!-- Experience -->
+                            <li><span>Aug.2022</span><br>Vg English Web Development</li>
+                            <li><span>Mar.2010 - Jul.2022</span><br>Grupo A2 S.A.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul> <!-- Skills -->
+                            <li><span>Web Developer</span><br>HTML, CSS, JavaScript, NodeJS, APIs, Git, Github, Boostrap, Sass</li>
+                            <li><span>Ux/Ui</span><br>Designing web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="cv">
+                        <ul> <!-- Cv -->
+                            <a href="images/CV - Matías Benitez.pdf" download class="btn">Download CV</a>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> <!-- ---------------End About--------------- -->
+    <section id="services" > <!-- ---------------Services--------------- -->
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>We proceed to the creation of a website working with HTML, CSS, JavaScript. Incorporating animations, transformations and transitions and incorporating SEO.</p>
+                    <a href="#contact">Contact me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h3>Ux/Ui Design</h3>
+                    <p>Different techniques and tools will be used to discover, detect and evaluate pain points. This way we can obtain information and approach the design with a proposal and improvement.</p>
+                    <a href="#contact">Contact me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Branding</h3>
+                    <p>With tools such as Illustrator, Photoshop and Figma, the identity of the brand is sought, with a balanced design of colors, fonts and thus obtain its logo and branding.</p>
+                    <a href="#contact">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section> <!-- ---------------End Services--------------- -->
+    <section id="portfolio" > <!-- ---------------Portfolio--------------- -->
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work1.png" alt="proyect Vg English picture">
+                    <div class="layer">
+                        <h3>Web Page Vg English</h3>
+                        <p>Project carried out as a freelance for the "VG English" institute, working together with a design team.</p>
+                        <a href="https://vg-english.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work2.png" alt="proyect Wabi picture">
+                    <div class="layer">
+                        <h3>Wabi App Redesign</h3>
+                        <p>Personal project carried out in the Ux/Ui developer career at coderhouse. Redesign of the Wabi app.</p>
+                        <a href="https://www.behance.net/gallery/134317169/Rediseno-UXUI-Wabi" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work3.png" alt="proyect Somos Veggies picture">
+                    <div class="layer">
+                        <h3>Somos Veggies Branding</h3>
+                        <p>Brand design for "Somos Veggies", a vegetarian recipe app.</p>
+                        <a href="https://www.behance.net/gallery/121406529/Somos-Veggies" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- ---------------End Portfolio--------------- -->
+    <section id="contact" > <!-- ---------------Contact--------------- -->
+        <div class="container">
+            <h2 class="sub-title">Contact Me</h2>
+            <div class="row">
+                <div class="contact-col-1">
+                    <a href="mailto:mattias.benitez@gmail.com?Subject=Job%20interview" target="_blank"" class="contact-info">
+                        <p><i class="fa-solid fa-paper-plane"></i> mattias.benitez@gmail.com</p> 
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=541128742608&text=Hello!%20I%20would%20like%20to%20contact%20you%20for..." target="_blank" class="contact-info">
+                        <p><i class="fa-brands fa-whatsapp"></i> +54 11 2874 2608</p> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/matías-benitez/" target="_blank" class="contact-info">
+                        <p><i class="fa-brands fa-linkedin-in"></i> Matias Benitez</p> 
+                    </a>
+                    <a href="https://github.com/Matias-Benitez" target="_blank" class="contact-info">
+                        <p><i class="fa-brands fa-github"></i> Matias-Benitez</p> 
+                    </a>
+                </div>
+                <div class="contact-col-2">
+                    <img src="/images/contact.svg" alt="contact picture">
+                </div>
+            </div>
+        </div>
+    </section><!-- ---------------End Contact--------------- -->
+    <section> <!-- ---------------Footer--------------- -->
+        <div class="copyright">
+            <p>Copyright © Matías Benitez <i class="fa-solid fa-mug-hot"></i></p>
+        </div>
+    </section><!-- ---------------End Footer--------------- -->
+    
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({easing: 'ease-out-back', duration: 1000}); </script> -->
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
