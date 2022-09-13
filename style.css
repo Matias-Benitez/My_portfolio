@@ -84,7 +84,7 @@ nav ul li a:hover::after{
         background-image: url(/images/head-m.png);
     }
     .header-text{
-        margin-top: 88%;
+        margin-top: 95%;
         font-size: 1.1rem;
         text-align: center;
     }
