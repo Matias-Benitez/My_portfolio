@@ -93,6 +93,7 @@ nav ul li a:hover::after{
     }
     .header-text p{
         font-weight: 600;
+        background: rgba(5, 7, 12, 0.1);
     }
     .logo{
         width: 6rem;
