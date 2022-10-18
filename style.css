@@ -28,7 +28,20 @@ body{
     background-image: url(/images/head.png);
     background-size: cover;
     background-position: center;
+    animation-duration: 3s;
+    animation-name: header;
 }
+@keyframes header {
+    from{
+        transform: translate3d(0,0,-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
 .container{
     padding: 1.5rem 7%;
 }
@@ -37,6 +50,18 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    animation-duration: 2s;
+    animation-name: nav;
+}
+@keyframes nav {
+    from{
+        transform: translate3d(0,-100%,0);
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
 }
 nav .fas{
     display: none;
@@ -71,6 +96,18 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 15%;
     font-size: 2rem;
+    animation-duration: 2s;
+    animation-name: text;
+}
+@keyframes text {
+    from{
+        transform: translate3d(-100%,0,0);
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
 }
 .header-text h1{
     font-size: 6rem;
