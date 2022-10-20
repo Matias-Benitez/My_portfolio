@@ -41,7 +41,6 @@ body{
         opacity: 1;
     }
 }
-
 .container{
     padding: 1.5rem 7%;
 }
@@ -76,6 +75,16 @@ nav ul li a{
     text-decoration: none;
     font-size: 1.5rem;
     position: relative;
+}
+nav ul li a i{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+    position: relative;
+}
+.services-list div i{
+    font-size: 4rem;
+    margin-bottom: 2rem;
 }
 .logo{
     width: 10rem;
@@ -116,6 +125,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: var(--red);
 }
+
 @media only screen and (max-width: 650px){
     #header{
         background-image: url(/images/head-m.png);
